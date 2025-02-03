@@ -91,7 +91,7 @@ export default function TermsAndConditions() {
             </Typography>
             <Typography variant="h6" gutterBottom>16. Contact Information</Typography>
             <Typography variant="body1">
-                For questions, contact us at <a href="mailto:admin@devshield.org" style={{ color: '#0088FE' }}>admin@devshield.org</a>.
+                For questions, contact us at <a href="mailto:support@devshield.org" style={{ color: '#0088FE' }}>support@devshield.org</a>.
             </Typography>
         </Container>
     );

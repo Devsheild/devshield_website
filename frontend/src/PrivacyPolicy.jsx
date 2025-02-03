@@ -35,9 +35,9 @@ export default function PrivacyPolicy() {
                 - To improve our app’s features, functionality, and overall user experience.<br />
                 - To send notifications related to app updates, feature changes, or account security.
             </Typography>
-            <Typography variant="h6" gutterBottom>3. Meeting-Free Friday</Typography>
+            <Typography variant="h6" gutterBottom>3. Meeting-Free day</Typography>
             <Typography variant="body1">
-                - When enabled, the "Meeting-Free Friday" feature helps you block Fridays on your calendar for focused work or personal time.<br />
+                - When enabled, the "Meeting-Free day" feature helps you block days on your calendar for focused work or personal time.<br />
                 - The feature adjusts your calendar settings with your explicit permission. You can enable, modify, or disable this feature at any time.<br />
                 - Any changes made through this feature will only be applied to your connected calendar and will not affect others' schedules unless explicitly shared by you.
             </Typography>
