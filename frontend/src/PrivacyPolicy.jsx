@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
             <Typography variant="h6" gutterBottom>6. Your Rights</Typography>
             <Typography variant="body1">
                 - You can withdraw consent for calendar access at any time through the app settings/contacting support.<br />
-                - You can request access to, correction of, or deletion of your personal data by contacting us at admin@devshield.org.<br />
+                - You can request access to, correction of, or deletion of your personal data by contacting us at support@devshield.org.<br />
                 - You have the right to restrict processing or object to specific uses of your data, where applicable.
             </Typography>
             <Typography variant="h6" gutterBottom>7. Security</Typography>
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
             </Typography>
             <Typography variant="h6" gutterBottom>9. Contact Us</Typography>
             <Typography variant="body1">
-                If you have any questions or concerns about this Privacy Policy or your data, please contact us at <a href="mailto:admin@devshield.org" style={{ color: '#0088FE' }}>admin@devshield.org</a>.
+                If you have any questions or concerns about this Privacy Policy or your data, please contact us at <a href="mailto:support@devshield.org" style={{ color: '#0088FE' }}>support@devshield.org</a>.
             </Typography>
         </Container>
     );
