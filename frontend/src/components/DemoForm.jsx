@@ -89,7 +89,7 @@ function DemoForm({ open, handleClose, email, setEmail }) {
                         alignItems: 'left'
                     }}>
                         <Typography id="modal-title" variant="h6" component="h2">
-                            Ready to see how DevShield can transform your company?
+                            Ready to see how DevShield can transform Healthcare?
                         </Typography>
 
                         <TextField
@@ -128,7 +128,7 @@ function DemoForm({ open, handleClose, email, setEmail }) {
                         />
 
                         <TextField
-                            label="Industry"
+                            label="Title"
                             name="industry"
                             size="small"
                             variant="outlined"
@@ -138,7 +138,7 @@ function DemoForm({ open, handleClose, email, setEmail }) {
                         />
 
                         <TextField
-                            label="Company size (rough estimate)"
+                            label="Organization size (rough estimate)"
                             name="companySize"
                             size="small"
                             variant="outlined"

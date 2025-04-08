@@ -64,7 +64,7 @@ export default function CallToAction() {
                         width: { sm: '100%', md: '80%' },
                     }}
                 >
-                    Ready to see how DevShield can transform your company's productivity? 
+                    Ready to see how DevShield can transform Healthcare? 
                 </Typography>
                 <Typography
                     sx={{
@@ -87,7 +87,7 @@ export default function CallToAction() {
                     >
                         Sign up for a demo today&nbsp;
                     </Typography>
-                    and discover the future of engineering.
+                    and discover the future of patient care.
                 </Typography>
                 <DemoInputCTA />
             </Stack>

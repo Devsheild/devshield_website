@@ -10,43 +10,75 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 import { styled } from '@mui/material/styles';
-
 import FeedbackIcon from '@mui/icons-material/Feedback';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import GoogleIcon from '@mui/icons-material/Google';
 import TimelineIcon from '@mui/icons-material/Timeline';
+import StethoscopeIcon from '@mui/icons-material/MedicalInformation';
+import LanguageIcon from '@mui/icons-material/Language';
+import DescriptionIcon from '@mui/icons-material/Description';
 import thermal from '../assets/feedback.png';
 import solar from '../assets/ai.png';
 import deploy from '../assets/google.png';
 import iso from '../assets/dashboard.png';
-
+import mari from '../assets/mari.png';
+// const items = [
+//   {
+//     icon: <StethoscopeIcon />,
+//     title: 'Anonymous Feedback',
+//     description:
+//       'Our anonymous survey application fosters openness and trust, enabling engineers to share concerns without fear of retaliation.',
+//     imageLight: `url(${thermal})`,
+//   },
+//   {
+//     icon: <PsychologyIcon />,
+//     title: 'AI-Powered Analysis',
+//     description:
+//       'Deep calendar analysis hunting for unnecessary time sinks. Advanced AI analyzes calendar invites in real-time, protecting developer focus time.',
+//     imageLight: `url(${solar})`,
+//   },
+//   {
+//     icon: <GoogleIcon />,
+//     title: 'Google Workspace',
+//     description:
+//       'Direct integration with Google Workspace to identify thousands per engineer in savings in mere minutes.',
+//     imageLight: `url(${deploy})`,
+//   },
+//   {
+//     icon: <TimelineIcon />,
+//     title: 'Dashboard insights',
+//     description:
+//       'Dashboard insights to provide visibility into engineer productivity and happiness over time, protecting your most valuable assets.',
+//     imageLight: `url(${iso})`,
+//   },
+// ];
 const items = [
   {
-    icon: <FeedbackIcon />,
-    title: 'Anonymous Feedback',
+    icon: <StethoscopeIcon />,
+    title: 'Meet M.A.R.I.',
     description:
       'Our anonymous survey application fosters openness and trust, enabling engineers to share concerns without fear of retaliation.',
-    imageLight: `url(${thermal})`,
+    imageLight: `url(${mari})`,
   },
   {
-    icon: <PsychologyIcon />,
-    title: 'AI-Powered Analysis',
+    icon: <LanguageIcon />,
+    title: 'Support for 57 languages',
     description:
-      'Deep calendar analysis hunting for unnecessary time sinks. Advanced AI analyzes calendar invites in real-time, protecting developer focus time.',
+      'Real-time audio translation between providers and patients, bridging the divide to the 60% of the world that doesnt speak fluent English.',
     imageLight: `url(${solar})`,
   },
   {
-    icon: <GoogleIcon />,
-    title: 'Google Workspace',
+    icon: <DescriptionIcon />,
+    title: 'Eliminate paperwork',
     description:
-      'Direct integration with Google Workspace to identify thousands per engineer in savings in mere minutes.',
+      'Notes are translated, summarized and automatically typed into your friendly neighborhood E.H.R',
     imageLight: `url(${deploy})`,
   },
   {
     icon: <TimelineIcon />,
-    title: 'Dashboard insights',
+    title: 'Pre-authorizations and billing',
     description:
-      'Dashboard insights to provide visibility into engineer productivity and happiness over time, protecting your most valuable assets.',
+      'Eliminate manual entry and accelerate clinical workflows. From billing to pre-authorizations, it’s handled.',
     imageLight: `url(${iso})`,
   },
 ];
@@ -86,13 +118,13 @@ export default function Features() {
         <Grid item xs={12} md={6}>
           <div>
             <Typography component="h2" variant="h4" sx={{ color: 'text.primary', mb: 2 }}>
-              Check in on the cost of your meetings
+            Putting the ❤️ back in HealthCare.
             </Typography>
             <Typography
               variant="body1"
               sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
             >
-              Our software is designed to offer unparalleled insight into your engineer's day-to-day:
+              Our software is designed to breaks down language barriers and eliminate tedious paperwork.
             </Typography>
           </div>
           <Grid container item sx={{ gap: 1, display: { xs: 'auto', sm: 'none' } }}>

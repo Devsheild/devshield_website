@@ -63,10 +63,10 @@ export default function Footer() {
                         flexDirection: 'column',
                     }}>
                         <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
-                            Leading the Future of Engineer Productivity
+                            Leading the Future of Healthcare Productivity
                         </Typography>
                         <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
-                            Giving developers a shield and decision-makers the insights to lead.
+                        Giving clinicians time to care, and patients a voice to be heard.
                         </Typography>
                     </Box>
                 </Box>
